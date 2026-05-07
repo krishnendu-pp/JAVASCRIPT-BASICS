@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="showmessage()">click</button>
+    
+    <h3 id="my head" onmouseover="changecolor()" onmouseout="resetcolor()">Hiii Krishnendu</h3>
+
+    <input  type="text" id="my input" onfocus="color()">
+    <input type="hi" id="text" onchange="update()">
+    <p id="name">KPP</p>
+    
+</body>
+<script>
+    function showmessage(){
+    alert("HELLO!  THEREE")
+}
+function changecolor(){
+    document.getElementById("my head").style.color="blue";
+}
+function resetcolor(){
+    document.getElementById("my head").style.color="black";
+}
+function color(){
+    document.getElementById("my input").style.borderColor="red";
+   
+}
+function update(){
+    let value=document.getElementById("text").value;
+              document.getElementById("name").innerHTML=value;
+
+
+}
+
+
+
+
+</script>
+</html>

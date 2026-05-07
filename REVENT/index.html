@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="run()"> click</button> <br><br>
+    <p id="text">Original Paragraph</p>
+    <button onclick="changetext()"> changetext</button><br><br>
+    ,<button onclick="backgroundcolor()">backgroundcolor </button><br><br>
+    <p id="hide para">Paragraph will disapper</p>
+    <button onclick="hideparagraph()">Hide paragraph</button><br><br>
+    <img id="my img" src="kpp image resume.png" style="display: none; width: 200px; height: 150;">
+    <button onclick="showimg()">showimg</button><br><br>
+
+
+</body>
+<script >
+function run(){
+    alert('yes')
+}
+function changetext(){
+    document.getElementById("text").innerHTML="Paragraph changed!";
+}
+function backgroundcolor(){
+    document.body.style.backgroundColor="blue";
+}
+function hideparagraph(){
+    document.getElementById("hide para").style.display="none";
+}
+function showimg(){
+     document.getElementById("my img").style.display="block";
+
+}
+
+</script>
+</html>
