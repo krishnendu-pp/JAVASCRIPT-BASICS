@@ -55,11 +55,33 @@ for
 
  const num =[1,2,3,44,5,16];
 const great=num.filter(num=>num>10);
-       console.log(great);*/
+       console.log(great);
 
 const add =([x,y]) =>x+y;
 console.log(add([5,4]));
 
-console 
+const multy =([x,y]) =>x*y;
+console.log(multy([5,4]));
 
+const even =([x]) =>x%2==0;
+console.log(even([5]));
+
+const sqr =([x]) =>x*x;
+console.log(sqr([5]));
+
+
+//destructe
+
+const pf ={name:"ram",age:"45"} ;
+const{name,age}= pf;
+console.log(pf);
+
+const colors=["black","blue","red"];
+const[first,sec,third]= colors;
+console.log(first,third);
+
+
+const place={city:"Kannur",state:"Kerala"};
+const{city,state}= place;
+console.log(place);*/
     
