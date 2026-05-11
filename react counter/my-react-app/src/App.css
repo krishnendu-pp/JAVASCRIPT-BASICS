@@ -1,0 +1,28 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #0b1718, #0d121a);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back h1{
+  margin-bottom: 25px;
+ 
+  font-weight: 1000px;
+  font-size: 40px;   /* bigger counter */
+  margin-bottom: 30px;
+  color: #dfa508;
+  
+}
+button{
+  padding: 6px 450px;
+  margin: 8px;
+  border: none;
+  border-color: #b5db09;
+
+
+}
+
+
+  
